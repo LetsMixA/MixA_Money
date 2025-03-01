@@ -1,0 +1,22 @@
+[project]
+name = "repl-nix-new-repl"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "email-validator>=2.2.0",
+    "flask>=3.1.0",
+    "flask-sqlalchemy>=3.1.1",
+    "psycopg2-binary>=2.9.10",
+    "qrcode>=8.0",
+    "pillow>=11.0.0",
+    "web3>=6.15.1",
+    "ipfsapi>=0.4.4",
+    "eth-brownie>=1.20.6",
+    "python-magic>=0.4.27",
+    "numpy",
+    "ipfshttpclient>=0.4.13.2",
+    "requests>=2.31.0",
+    "sqlalchemy>=2.0.36",
+    "gunicorn>=23.0.0",
+]
